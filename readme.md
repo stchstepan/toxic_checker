@@ -2,11 +2,12 @@
 
 Toxic Checker is a Python script designed to identify potentially toxic libraries in a project's dependencies. It uses a pre-defined database of toxic repositories and generates a Software Benchmarking Report (SBOM) for the project. By comparing the extracted library names from the SBOM with the toxic repository database, it identifies potential matches and provides information on the degree of similarity.
 
-## Usage.
+## Usage
 
 1. Run the Toxic Checker script:
 
-``bash
+```
+bash
 sudo python3 toxic_checker.py
 ```
 
